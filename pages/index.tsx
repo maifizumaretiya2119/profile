@@ -24,7 +24,7 @@ export default function Home() {
                         </span>
                         <br />
                         <span className="bg-clip-text highlight md:text-6xl text-5xl">
-                            Abhishek Powade.
+                            Maifiz Umaretiya.
                         </span>
                     </h1>
                     <p className="text-xl text-gray-400 leading-relaxed mt-8">
