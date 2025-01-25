@@ -42,7 +42,7 @@ const FullScreenModal = ({ isOpen, onClose }) => {
             </nav>
             <nav class="text-gray-400 px-8 flex gap-5 mb-4">
                 <a
-                    href="https://github.com/pipgainer"
+                    href="https://github.com/maifizumaretiya2119"
                     class="py-5 px-3 hover:text-gray-50 transition-colors"
                     aria-label="GitHub Profile"
                     target="_blank"
