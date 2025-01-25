@@ -28,7 +28,7 @@ export default function Home() {
                         </span>
                     </h1>
                     <p className="text-xl text-gray-400 leading-relaxed mt-8">
-                        As a software engineer with expertise in both web and mobile development, I'm passionate about creating innovative, user-friendly products that blend cutting-edge technology with exceptional design. I thrive on learning new tools and frameworks to push the boundaries of what’s possible, constantly evolving to stay ahead in the tech world.
+                        As a software engineer with expertise in mobile development, I'm passionate about creating innovative, user-friendly products that blend cutting-edge technology with exceptional design. I thrive on learning new tools and frameworks to push the boundaries of what’s possible, constantly evolving to stay ahead in the tech world.
                     </p>
                 </div>
                 <div className="gradient-border p-4 hidden lg:block relative highlight rounded-xl">
@@ -88,13 +88,13 @@ export default function Home() {
                     <h2 className="text-4xl font-semibold mt-10 lg:mt-0">About Me</h2>
                     <section>
                         <p className="text-coolGray-400 mt-6 text-xl">
-                            Hey! I’m Abhishek, a creative 25-year-old who loves
+                            Hey! I’m Maifiz, a creative 24-year-old who loves
                             to code, build and deploy.
                         </p>
                         <div className="text-coolGray-400 text-xl">
                             <div className="mt-4 "></div>
                             <p className="mt-4 text-xl">
-                                I thrive on challenging myself and constantly learning new technologies. Currently, I have experience developing both web and mobile applications, with a focus on creating seamless user experiences. Right now, I'm working with Courseplay, building solutions that make a difference.
+                                I thrive on challenging myself and constantly learning new technologies. Currently, I have experience developing mobile applications, with a focus on creating seamless user experiences. Right now, I'm working with Courseplay, building solutions that make a difference.
                             </p>
                             <p className="mt-4 text-xl">
                                 In my free time, I dive into new tech stacks to sharpen my skills. One quote that motivates me when tackling new technologies is, <br />
@@ -109,16 +109,15 @@ export default function Home() {
                                 from{" "}
                                 <a
                                     className="link text-blue-500"
-                                    href="http://www.gcekarad.ac.in/"
+                                    href="https://rku.ac.in/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    GCE Karad
+                                    RK University
                                 </a>
                                 . Most of the things I build or learn is still
                                 driven by curiosity even today. My most recent
-                                obsession has been building web applications,
-                                native mobile applicaitons and I’m always open
+                                obsession has been building native mobile applicaitons and I’m always open
                                 to talk about front-end development, user
                                 interface design and open source!
                             </p>
@@ -149,70 +148,12 @@ export default function Home() {
                                                 className="link"
                                                 rel="noreferrer"
                                             >
-                                                Courseplay
+                                                Pyther Innovation Pvt. Ltd.
                                             </a>
                                         </span>
                                     </div>
                                     <p className="text-sm font-semibold mt-1.5">
-                                        Dececmber 2023 &nbsp;—&nbsp; Now
-                                    </p>
-                                </div>
-                            </li>
-                            <li className="flex items-center">
-                                <div className="gatsby-image-wrapper gatsby-image-wrapper-constrained rounded flex-shrink-0 bg-white">
-                                    <Image
-                                        width={150}
-                                        height={150}
-                                        alt="plus91 logo"
-                                        src={"/logo.jpg"}
-                                    />
-                                </div>
-                                <div className="ml-4 sm:ml-6">
-                                    <div className="text-gray-50 text-lg">
-                                        Software Developer{" "}
-                                        <span className="text-green-400 whitespace-nowrap">
-                                            @{" "}
-                                            <a
-                                                href="https://plus91.in/v2/"
-                                                target="_blank"
-                                                className="link"
-                                                rel="noreferrer"
-                                            >
-                                                Plus91 Technologies
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <p className="text-sm font-semibold mt-1.5">
-                                        July 2022 &nbsp;—&nbsp; November 2023
-                                    </p>
-                                </div>
-                            </li>
-                            <li className="flex items-center">
-                                <div className="gatsby-image-wrapper gatsby-image-wrapper-constrained rounded flex-shrink-0 bg-white">
-                                    <Image
-                                        width={150}
-                                        height={150}
-                                        alt="plus91 logo"
-                                        src={"/SpaciousTech-Logo.png"}
-                                    />
-                                </div>
-                                <div className="ml-4 sm:ml-6">
-                                    <div className="text-gray-50 text-lg">
-                                        Software Developer Intern{" "}
-                                        <span className="text-green-400 whitespace-nowrap">
-                                            @{" "}
-                                            <a
-                                                href="http://spacioustech.com/"
-                                                target="_blank"
-                                                className="link"
-                                                rel="noreferrer"
-                                            >
-                                                Spacious Tech
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <p className="text-sm font-semibold mt-1.5">
-                                        March 2022 &nbsp;—&nbsp; July 2022
+                                        July 2022 &nbsp;—&nbsp; Now
                                     </p>
                                 </div>
                             </li>
