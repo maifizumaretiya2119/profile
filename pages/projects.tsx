@@ -11,61 +11,20 @@ const projectsData = [
     },
     {
         "date": "Dec 19, 2024",
-        "title": "QuizGenie",
-        "description": "QuizGenie is an AI-powered quiz engine that generates quizzes from uploaded PDFs or text. Tutors create and share quiz links with learners, who can answer questions interactively. The platform also provides downloadable student performance reports.",
-        "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI Integration", "PDF Parsing"],
-        "demoLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
-        "githubLink": "https://github.com/pipgainer/ai-test-engine"
-    },
-    {
-        "date": "Oct 12, 2024",
-        "title": "Cart Cleaner",
-        "description": "A browser extension designed to automate the process of cleaning all items from the Cart or from the 'Save for Later' section on Amazon and Flipkart. This tool streamlines cart management and enhances user convenience.",
-        "technologies": ["JavaScript", "HTML", "CSS", "Chrome Extensions API", "Automation Scripts"],
-        "liveLink": "https://chromewebstore.google.com/detail/cart-cleaner/cpgckjifdhcdggfkoojnnfoimbpconjf",
-        "githubLink": "https://github.com/pipgainer/cart-cleaner"
-    },
-    {
-        "date": "June 23, 2024",
-        "title": "XAUUSD Predictor",
-        "description": "The XAUUSD Predictor is a TradingView indicator that uses the correlation between the DXY (US Dollar Index) and XAUUSD (Gold) pair to predict the direction of XAUUSD. By analyzing the inverse relationship between these two assets, the indicator provides insights that can increase the likelihood of a successful trade by up to 70%.",
-        "technologies": ["TradingView Pine Script", "DXY", "XAUUSD", "Financial Analysis", "Market Correlation"],
-        // "liveLink": "https://example.com/xauusd-predictor",
-        "githubLink": "https://github.com/pipgainer/tradingViewScript"
+        "title": "Food Court",
+        "description": "FoodCourt is an Android-based food ordering app that streamlines the process of purchasing food. Users can browse the menu, add items to their cart, and place orders seamlessly. The app also allows customers to edit or remove items before checkout. Designed for convenience, FoodCourt offers a user-friendly interface, making it easy to satisfy cravings with just a few taps.",
+        "technologies": ["Android", "Kotlin","HTML","CSS"],
+        // "demoLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
+        // "githubLink": "https://github.com/pipgainer/ai-test-engine"
     },
     {
         "date": "March 21, 2024",
         "title": "Personal Portfolio",
         "description": "A professional portfolio webpage built using Next.js that showcases all the projects you’ve created, along with your work experience, skills, and other relevant details. This dynamic site allows you to present your technical expertise, projects, and accomplishments in an organized and visually appealing way.",
         "technologies": ["Next.js", "React", "Tailwind CSS", "Node.js", "JavaScript", "MongoDB"],
-        "liveLink": "https://profile-pipgainer.vercel.app/",
-        "githubLink": "https://github.com/pipgainer/profile"
+        // "liveLink": "https://profile-pipgainer.vercel.app/",
+        // "githubLink": "https://github.com/maifizumaretiya2119/profile"
     },
-
-    {
-        "date": "Nov 14, 2023",
-        "title": "3D T-Shirt Designer",
-        "description": "A 3D T-shirt design website built with Next.js and Three.js that allows users to customize T-shirt designs. Users can change the color of the T-shirt's texture and upload images to see how they would look on the shirt in real-time, offering an interactive and engaging experience.",
-        "technologies": ["Next.js", "Three.js", "Tailwind CSS", "JavaScript", "WebGL"],
-        liveLink: "https://3d-shirt-design.vercel.app/",
-        githubLink: "https://github.com/pipgainer/3d-shirt-design",
-    },
-    {
-        "date": "Oct 13, 2023",
-        "title": "Receptionist  App",
-        "description": "The Receptionist Appointment Application is a mobile platform built with Ionic and its libraries. It allows users to create, manage, and view appointments. The app includes a custom calendar, direct calling functionality for patient communication, and various features designed to streamline appointment scheduling and management for receptionists.",
-        "technologies": ["Ionic", "Angular", "Ionic Native", "Custom Calendar", "Direct Calling", "Appointment Scheduling"],
-        // "demoLink": "URL_TO_DEMO",
-        // "githubLink": "URL_TO_GITHUB"
-    },
-    {
-        "date": "Sep 5, 2023",
-        "title": "Ultimate Tic Tac Toe",
-        "description": "Ultimate Tic Tac Toe is an interactive two-player game where players can enjoy a more complex version of the classic Tic Tac Toe. The game features a larger grid and strategic gameplay, allowing players to compete in an engaging and fun environment.",
-        "technologies": ["Next.js", "TailwindCss", "JavaScript", "HTML", "CSS", "React", "Game Logic"],
-        liveLink: "https://ultimate-tic-tac-toe-vgsc.vercel.app/",
-        githubLink: "https://github.com/pipgainer/ultimate-tic-tac-toe",
-    }
 ];
 
 const ProjectCard = ({ date, title, description, demoLink, technologies, liveLink, githubLink }: any) => {
