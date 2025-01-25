@@ -65,7 +65,7 @@ const Navbar = () => {
                                     }`}
                                 style={{ fontSize: "1.5rem" }}
                             >
-                                Abhishek Powade
+                                Maifiz Umaretiya
                             </span>
                         </a>
                         <button
@@ -140,7 +140,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <Link
-                                        href="https://github.com/pipgainer"
+                                        href="https://github.com/maifizumaretiya2119"
                                         className="py-5  text-coolGray-400 hover:text-gray-50 transition-colors"
                                         aria-label="GitHub Profile"
                                         target="_blank"
@@ -161,7 +161,7 @@ const Navbar = () => {
                                         </svg>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link
                                         href="https://twitter.com/abhishekpowade"
                                         className="py-5 text-coolGray-400 hover:text-sky-400 transition-colors"
@@ -183,10 +183,10 @@ const Navbar = () => {
                                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
                                         </svg>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link
-                                        href="https://www.linkedin.com/in/abhishekpowade/"
+                                        href="https://www.linkedin.com/in/maifiz-umaretiya-4a11171bb/"
                                         className="py-5 text-coolGray-400 hover:text-blue-500 transition-colors"
                                         aria-label="LinkedIn Profile"
                                         target="_blank"
