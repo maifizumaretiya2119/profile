@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
     const openPdf = () => {
-        const pdfUrl = '/resume.pdf';
+        const pdfUrl = '/Maifiz Umaretiya.pdf';
         window.open(pdfUrl, '_blank');
     };
     return (
@@ -21,7 +21,7 @@ const Resume = () => {
             <div className="w-full mt-5 flex justify-center items-center px-5">
                 <div className="w-full max-w-4xl mt-5">
                     <object
-                        data="/resume.pdf"
+                        data="/Maifiz Umaretiya.pdf"
                         type="application/pdf"
                         width="100%"
                         height="600"
